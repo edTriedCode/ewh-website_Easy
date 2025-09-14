@@ -485,7 +485,7 @@
                                     height:max-content;
                                     display:inline-block;
                                     position:relative;
-                                    margin-left:-100%;
+                                    margin-left:0%;
                                     transition:all 600ms ease;
                                     -o-transition:all 600ms ease;
                                     -ms-transition:all 600ms ease;
@@ -749,6 +749,8 @@
                                                 left:0;
                                                 right:0;
                                                 margin:0px auto;
+                                                display:none;
+                                                opacity:0;
                                                 position:relative;
                                                 transition:all 600ms ease;
                                                 -o-transition:all 600ms ease;
@@ -2342,3 +2344,1034 @@
                                                                                                                                 -webkit-transition:all 600ms ease;
 
                                                                                                                             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                        
+
+
+
+                                                                            /* REVIEW CONTENT ACTION BUTTON BLOCK  */
+                                                                            /* =================================== */
+
+                                                                                .hpApproverChangesRequestSectionReviewSideMainActionButtonChangeContainer{
+
+                                                                                    width:100%;
+                                                                                    display:inline-table;
+                                                                                    margin:0px 0px 0px 0px;
+                                                                                    transition:all 600ms ease;
+                                                                                    -o-transition:all 600ms ease;
+                                                                                    -ms-transition:all 600ms ease;
+                                                                                    -moz-transition:all 600ms ease;
+                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                }
+
+                                                                                    .hpApproverChangesRequestSectionReviewSideMainActionButtonChangeHeadlinerContainer{
+
+                                                                                        width:100%;
+                                                                                        transition:all 600ms ease;
+                                                                                        -o-transition:all 600ms ease;
+                                                                                        -ms-transition:all 600ms ease;
+                                                                                        -moz-transition:all 600ms ease;
+                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                    }
+
+                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonChangeHeadlinerActual{
+
+                                                                                            width:100%;
+                                                                                            font-size:12px;
+                                                                                            color:#bcbcbc;
+                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                            letter-spacing:1px;
+                                                                                            transition:all 600ms ease;
+                                                                                            -o-transition:all 600ms ease;
+                                                                                            -ms-transition:all 600ms ease;
+                                                                                            -moz-transition:all 600ms ease;
+                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                        }
+
+                                                                                            /* CHANGES PREVIEW CONTAINER  */
+                                                                                            /* ========================== */
+
+                                                                                                .hpApproverChangesRequestSectionReviewSideMainActionButtonChangeActualContainer{
+
+                                                                                                    width:100%;
+                                                                                                    display:block;
+                                                                                                    margin:20px 0px 0px 0px;
+                                                                                                    position:relative;
+                                                                                                    transition:all 600ms ease;
+                                                                                                    -o-transition:all 600ms ease;
+                                                                                                    -ms-transition:all 600ms ease;
+                                                                                                    -moz-transition:all 600ms ease;
+                                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                                }
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                    /* PREVIOUS SUB HEADLINER TAG == */
+                                                                                                    /* ============================= */
+
+                                                                                                        .hpApproverChangesRequestSectionReviewSidePreviousMainActionButtonChangeTagElementContainer{
+
+                                                                                                            width:100%;
+                                                                                                            height:80%;
+                                                                                                            top:0;
+                                                                                                            left:0;
+                                                                                                            right:0;
+                                                                                                            bottom:0;
+                                                                                                            margin:0px auto 0px auto;
+                                                                                                            padding:0px 10px;
+                                                                                                            display:inline-block;
+                                                                                                            position:relative;
+                                                                                                            border-radius:10px;
+                                                                                                            transition:all 600ms ease;
+                                                                                                            -o-transition:all 600ms ease;
+                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                        }
+
+                                                                                                            /* TIME STAMP HEADLINER CONTAINER */
+                                                                                                            /* ============================== */
+
+                                                                                                                .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousTagContainer{
+
+                                                                                                                    width:100%;
+                                                                                                                    display:block;
+                                                                                                                    position:relative;
+                                                                                                                    transition:all 600ms ease;
+                                                                                                                    -o-transition:all 600ms ease;
+                                                                                                                    -ms-transition:all 600ms ease;
+                                                                                                                    -moz-transition:all 600ms ease;
+                                                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                                                }
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousTagActual{
+
+                                                                                                                        width:100%;
+                                                                                                                        font-size:13px;
+                                                                                                                        color:#3A5668;
+                                                                                                                        font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                        letter-spacing:1px;
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousTextBoxTagContainer{
+
+                                                                                                                            width:max-content;
+                                                                                                                            margin:15px 0px 0px 0px;
+                                                                                                                            display:block;
+                                                                                                                            padding:10px 20px;
+                                                                                                                            position:relative;
+                                                                                                                            background:#FFFFFF;
+                                                                                                                            box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.30);
+                                                                                                                            border-radius:10px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+
+                                                                                                                /* ENGLISH PREVIOUS CONTENT TAG */
+                                                                                                                /* ============================ */
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousEnglishContentContainer{
+
+                                                                                                                        width:max-content;
+                                                                                                                        top:0;
+                                                                                                                        left:0;
+                                                                                                                        right:0;
+                                                                                                                        bottom:0;
+                                                                                                                        margin:0px auto;
+                                                                                                                        padding:0px 0px 10px 0px;
+                                                                                                                        position:relative;
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousEnglishContentTextTag{
+
+                                                                                                                            width:100%;
+                                                                                                                            font-size:10px;
+                                                                                                                            color:#bcbcbc;
+                                                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                            letter-spacing:1px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousEnglishContentInputBoxTag{
+
+                                                                                                                            width:max-content;
+                                                                                                                            margin:10px auto 0px auto;
+                                                                                                                            border:2px solid rgba(188, 188, 188, 1.00);
+                                                                                                                            padding:10px 30px 15px 30px;
+                                                                                                                            position:relative;
+                                                                                                                            font-size:12px;
+                                                                                                                            box-shadow:0px 10px 30px -10px rgba(0,0,0,0.30);
+                                                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                            border-radius:8px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+                                                                                                                            .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousEnglishContentInputBoxTagActual{
+
+                                                                                                                                width:100%;
+                                                                                                                                color:#3A5668;
+                                                                                                                                padding:10px 30px 15px 30px;
+                                                                                                                                display:inline-block;
+                                                                                                                                position:relative;
+                                                                                                                                transition:all 600ms ease;
+                                                                                                                                -o-transition:all 600ms ease;
+                                                                                                                                -ms-transition:all 600ms ease;
+                                                                                                                                -moz-transition:all 600ms ease;
+                                                                                                                                -webkit-transition:all 600ms ease;
+
+                                                                                                                            }
+
+
+                                                                                                                /* ENGLISH PREVIOUS CONTENT TAG */
+                                                                                                                /* ============================ */
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousArabicContentContainer{
+
+                                                                                                                        width:max-content;
+                                                                                                                        top:0;
+                                                                                                                        left:0;
+                                                                                                                        right:0;
+                                                                                                                        bottom:0;
+                                                                                                                        margin:0px auto;
+                                                                                                                        padding:0px 0px 10px 0px;
+                                                                                                                        position:relative;
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousArabicContentTextTag{
+
+                                                                                                                            width:100%;
+                                                                                                                            font-size:10px;
+                                                                                                                            color:#bcbcbc;
+                                                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                            letter-spacing:1px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousArabicContentInputBoxTag{
+
+                                                                                                                            width:max-content;
+                                                                                                                            margin:10px auto 0px auto;
+                                                                                                                            border:2px solid rgba(188, 188, 188, 1.00);
+                                                                                                                            padding:10px 30px 15px 30px;
+                                                                                                                            position:relative;
+                                                                                                                            font-size:12px;
+                                                                                                                            box-shadow:0px 10px 30px -10px rgba(0,0,0,0.30);
+                                                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                            border-radius:8px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+
+                                                                                                                /* PREVIOUS ACTION BUTTON STYLE TAG  */
+                                                                                                                /* ================================= */
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousStyleContainer{
+
+                                                                                                                        width:100%;
+                                                                                                                        top:0;
+                                                                                                                        left:0;
+                                                                                                                        right:0;
+                                                                                                                        bottom:0;
+                                                                                                                        margin:0px auto;
+                                                                                                                        padding:0px 0px 10px 0px;
+                                                                                                                        position:relative;
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousStyleTextTag{
+
+                                                                                                                            width:100%;
+                                                                                                                            font-size:10px;
+                                                                                                                            color:#bcbcbc;
+                                                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                            letter-spacing:1px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonPreviousStyleBoxTag{
+
+                                                                                                                            width:50px;
+                                                                                                                            height:0px;
+                                                                                                                            cursor:default !important;
+                                                                                                                            margin:10px 0px 0px 0px;
+                                                                                                                            border:2px solid rgba(188, 188, 188, 1.00);
+                                                                                                                            padding:10px 15px 15px 15px;
+                                                                                                                            position:relative;
+                                                                                                                            box-shadow:0px 10px 30px -10px rgba(0,0,0,0.30);
+                                                                                                                            border-radius:8px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+
+
+
+
+                                                                                                
+
+
+
+
+
+
+
+
+                                                                                                    /* PORPOSED ACTION BUTTON BLOCK  */
+                                                                                                    /* ============================= */
+
+                                                                                                        .hpApproverChangesRequestSectionReviewSideProposedMainActionButtonChangeTagElementContainer{
+
+                                                                                                            width:100%;
+                                                                                                            height:80%;
+                                                                                                            top:0;
+                                                                                                            left:0;
+                                                                                                            right:0;
+                                                                                                            bottom:0;
+                                                                                                            margin:30px auto 0px auto;
+                                                                                                            padding:0px 10px;
+                                                                                                            display:inline-block;
+                                                                                                            position:relative;
+                                                                                                            border-radius:10px;
+                                                                                                            transition:all 600ms ease;
+                                                                                                            -o-transition:all 600ms ease;
+                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                        }
+
+                                                                                                            /* TIME STAMP SUB HEADLINER CONTAINER */
+                                                                                                            /* ================================== */
+
+                                                                                                                .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedTagContainer{
+
+                                                                                                                    width:100%;
+                                                                                                                    display:block;
+                                                                                                                    position:relative;
+                                                                                                                    transition:all 600ms ease;
+                                                                                                                    -o-transition:all 600ms ease;
+                                                                                                                    -ms-transition:all 600ms ease;
+                                                                                                                    -moz-transition:all 600ms ease;
+                                                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                                                }
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedTagActual{
+
+                                                                                                                        width:100%;
+                                                                                                                        font-size:13px;
+                                                                                                                        color:#3A5668;
+                                                                                                                        font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                        letter-spacing:1px;
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedTextBoxTagContainer{
+
+                                                                                                                            width:max-content;
+                                                                                                                            margin:15px 0px 0px 0px;
+                                                                                                                            display:block;
+                                                                                                                            padding:10px 20px;
+                                                                                                                            position:relative;
+                                                                                                                            background:#FFFFFF;
+                                                                                                                            box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.30);
+                                                                                                                            border-radius:10px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+
+                                                                                                                /* ENGLISH PREVIOUS CONTENT TAG */
+                                                                                                                /* ============================ */
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedEnglishContentContainer{
+
+                                                                                                                        width:max-content;
+                                                                                                                        top:0;
+                                                                                                                        left:0;
+                                                                                                                        right:0;
+                                                                                                                        bottom:0;
+                                                                                                                        margin:0px auto;
+                                                                                                                        padding:0px 0px 10px 0px;
+                                                                                                                        position:relative;
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedEnglishContentTextTag{
+
+                                                                                                                            width:100%;
+                                                                                                                            font-size:10px;
+                                                                                                                            color:#bcbcbc;
+                                                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                            letter-spacing:1px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedEnglishContentInputBoxTag{
+
+                                                                                                                            width:max-content;
+                                                                                                                            margin:10px auto 0px auto;
+                                                                                                                            border:2px solid rgba(188, 188, 188, 1.00);
+                                                                                                                            padding:10px 30px 15px 30px;
+                                                                                                                            position:relative;
+                                                                                                                            font-size:12px;
+                                                                                                                            box-shadow:0px 10px 30px -10px rgba(0,0,0,0.30);
+                                                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                            border-radius:8px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+                                                                                                                            .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedEnglishContentInputBoxTagActual{
+
+                                                                                                                                width:100%;
+                                                                                                                                color:#3A5668;
+                                                                                                                                padding:10px 30px 15px 30px;
+                                                                                                                                display:inline-block;
+                                                                                                                                position:relative;
+                                                                                                                                transition:all 600ms ease;
+                                                                                                                                -o-transition:all 600ms ease;
+                                                                                                                                -ms-transition:all 600ms ease;
+                                                                                                                                -moz-transition:all 600ms ease;
+                                                                                                                                -webkit-transition:all 600ms ease;
+
+                                                                                                                            }
+
+
+                                                                                                                /* ARABIC PREVIOUS CONTENT TAG  */
+                                                                                                                /* ============================ */
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedArabicContentContainer{
+
+                                                                                                                        width:max-content;
+                                                                                                                        top:0;
+                                                                                                                        left:0;
+                                                                                                                        right:0;
+                                                                                                                        bottom:0;
+                                                                                                                        margin:0px auto;
+                                                                                                                        padding:0px 0px 10px 0px;
+                                                                                                                        position:relative;
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedArabicContentTextTag{
+
+                                                                                                                            width:100%;
+                                                                                                                            font-size:10px;
+                                                                                                                            color:#bcbcbc;
+                                                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                            letter-spacing:1px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedArabicContentInputBoxTag{
+
+                                                                                                                            width:max-content;
+                                                                                                                            margin:10px auto 0px auto;
+                                                                                                                            border:2px solid rgba(188, 188, 188, 1.00);
+                                                                                                                            padding:10px 30px 15px 30px;
+                                                                                                                            position:relative;
+                                                                                                                            font-size:12px;
+                                                                                                                            box-shadow:0px 10px 30px -10px rgba(0,0,0,0.30);
+                                                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                            border-radius:8px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+
+                                                                                                                /* PROPOSED ACTION BUTTON STYLE TAGG */
+                                                                                                                /* ================================= */
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedStyleContainer{
+
+                                                                                                                        width:100%;
+                                                                                                                        top:0;
+                                                                                                                        left:0;
+                                                                                                                        right:0;
+                                                                                                                        bottom:0;
+                                                                                                                        margin:0px auto;
+                                                                                                                        padding:0px 0px 10px 0px;
+                                                                                                                        position:relative;
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedStyleTextTag{
+
+                                                                                                                            width:100%;
+                                                                                                                            font-size:10px;
+                                                                                                                            color:#bcbcbc;
+                                                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                            letter-spacing:1px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+                                                                                                                        .hpApproverChangesRequestSectionReviewSideMainActionButtonProposedStyleBoxTag{
+
+                                                                                                                            width:50px;
+                                                                                                                            height:0px;
+                                                                                                                            cursor:default !important;
+                                                                                                                            margin:10px 0px 0px 0px;
+                                                                                                                            border:2px solid rgba(188, 188, 188, 1.00);
+                                                                                                                            padding:10px 15px 15px 15px;
+                                                                                                                            position:relative;
+                                                                                                                            box-shadow:0px 10px 30px -10px rgba(0,0,0,0.30);
+                                                                                                                            border-radius:8px;
+                                                                                                                            transition:all 600ms ease;
+                                                                                                                            -o-transition:all 600ms ease;
+                                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                                        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                        
+
+
+
+                                                                            /* REVIEW CONTENT TECHFRAME BLOCK  */
+                                                                            /* =============================== */
+
+                                                                                .hpApproverChangesRequestSectionReviewSideTechFrameChangeContainer{
+
+                                                                                    width:100%;
+                                                                                    display:inline-table;
+                                                                                    margin:0px 0px 0px 0px;
+                                                                                    transition:all 600ms ease;
+                                                                                    -o-transition:all 600ms ease;
+                                                                                    -ms-transition:all 600ms ease;
+                                                                                    -moz-transition:all 600ms ease;
+                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                }
+
+                                                                                    .hpApproverChangesRequestSectionReviewSideTechFrameChangeHeadlinerContainer{
+
+                                                                                        width:100%;
+                                                                                        transition:all 600ms ease;
+                                                                                        -o-transition:all 600ms ease;
+                                                                                        -ms-transition:all 600ms ease;
+                                                                                        -moz-transition:all 600ms ease;
+                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                    }
+
+                                                                                        .hpApproverChangesRequestSectionReviewSideTechFrameChangeHeadlinerActual{
+
+                                                                                            width:100%;
+                                                                                            font-size:12px;
+                                                                                            color:#bcbcbc;
+                                                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                                                            letter-spacing:1px;
+                                                                                            transition:all 600ms ease;
+                                                                                            -o-transition:all 600ms ease;
+                                                                                            -ms-transition:all 600ms ease;
+                                                                                            -moz-transition:all 600ms ease;
+                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                        }
+
+                                                                                            /* CHANGES PREVIEW CONTAINER  */
+                                                                                            /* ========================== */
+
+                                                                                                .hpApproverChangesRequestSectionReviewSideTechFrameChangeActualContainer{
+
+                                                                                                    width:100%;
+                                                                                                    display:block;
+                                                                                                    margin:20px 0px 0px 0px;
+                                                                                                    position:relative;
+                                                                                                    transition:all 600ms ease;
+                                                                                                    -o-transition:all 600ms ease;
+                                                                                                    -ms-transition:all 600ms ease;
+                                                                                                    -moz-transition:all 600ms ease;
+                                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                                }
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                    /* PREVIOUS TECHFRAME TAG ====== */
+                                                                                                    /* ============================= */
+
+                                                                                                        .hpApproverChangesRequestSectionReviewSidePreviousTechFrameChangeTagElementContainer{
+
+                                                                                                            width:max-content;
+                                                                                                            height:80%;
+                                                                                                            top:0;
+                                                                                                            left:0;
+                                                                                                            right:0;
+                                                                                                            bottom:0;
+                                                                                                            margin:0px auto;
+                                                                                                            padding:0px 10px;
+                                                                                                            display:inline-block;
+                                                                                                            position:relative;
+                                                                                                            border-radius:10px;
+                                                                                                            transition:all 600ms ease;
+                                                                                                            -o-transition:all 600ms ease;
+                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                        }
+
+                                                                                                            /* TIME STAMP HEADLINER CONTAINER */
+                                                                                                            /* ============================== */
+
+                                                                                                                .hpApproverChangesRequestSectionReviewSideTechFramePreviousTagContainer{
+
+                                                                                                                    width:100%;
+                                                                                                                    display:block;
+                                                                                                                    position:relative;
+                                                                                                                    transition:all 600ms ease;
+                                                                                                                    -o-transition:all 600ms ease;
+                                                                                                                    -ms-transition:all 600ms ease;
+                                                                                                                    -moz-transition:all 600ms ease;
+                                                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                                                }
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideTechFramePreviousTagActual{
+
+                                                                                                                        width:100%;
+                                                                                                                        font-size:13px;
+                                                                                                                        color:#3A5668;
+                                                                                                                        font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                        letter-spacing:1px;
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+                                                                                                            /* TIME STAMP TECHFRAME CONTAINER */
+                                                                                                            /* ============================== */
+
+                                                                                                                .hpApproverChangesRequestSectionReviewSideTechFramePreviousImageContainer{
+
+                                                                                                                    width:100px;
+                                                                                                                    height:100px;
+                                                                                                                    margin:15px 0px 0px 0px;
+                                                                                                                    display:block;
+                                                                                                                    padding:10px 10px;
+                                                                                                                    position:relative;
+                                                                                                                    background:#FFFFFF;
+                                                                                                                    box-shadow:0px 20px 30px -10px rgba(0,0,0,0.30);
+                                                                                                                    border-radius:10px;
+                                                                                                                    transition:all 600ms ease;
+                                                                                                                    -o-transition:all 600ms ease;
+                                                                                                                    -ms-transition:all 600ms ease;
+                                                                                                                    -moz-transition:all 600ms ease;
+                                                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                                                }
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideTechFramePreviousImageActual{
+
+                                                                                                                        width:100px;
+                                                                                                                        height:100px;
+                                                                                                                        top:0;
+                                                                                                                        left:0;
+                                                                                                                        right:0;
+                                                                                                                        bottom:0;
+                                                                                                                        margin:auto;
+                                                                                                                        position:absolute;
+                                                                                                                        background:#20c72e;
+                                                                                                                        border-radius:5px;
+                                                                                                                        box-shadow:0px 15px 10px -10px rgba(0,0,0,0.30);
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+
+                                                                                                
+
+
+
+
+
+
+
+
+                                                                                                    /* PORPOSED TECHFRAME BLOCK ==== */
+                                                                                                    /* ============================= */
+
+                                                                                                        .hpApproverChangesRequestSectionReviewSideProposedTechFrameChangeTagElementContainer{
+
+                                                                                                            width:max-content;
+                                                                                                            height:80%;
+                                                                                                            top:0;
+                                                                                                            left:0;
+                                                                                                            right:0;
+                                                                                                            bottom:0;
+                                                                                                            margin:0px auto;
+                                                                                                            padding:0px 10px;
+                                                                                                            display:inline-block;
+                                                                                                            position:relative;
+                                                                                                            border-radius:10px;
+                                                                                                            transition:all 600ms ease;
+                                                                                                            -o-transition:all 600ms ease;
+                                                                                                            -ms-transition:all 600ms ease;
+                                                                                                            -moz-transition:all 600ms ease;
+                                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                                        }
+
+                                                                                                            /* TIME STAMP TECHFRAME CONTAINER */
+                                                                                                            /* ============================== */
+
+                                                                                                                .hpApproverChangesRequestSectionReviewSideTechFrameProposedTagContainer{
+
+                                                                                                                    width:100%;
+                                                                                                                    display:block;
+                                                                                                                    position:relative;
+                                                                                                                    transition:all 600ms ease;
+                                                                                                                    -o-transition:all 600ms ease;
+                                                                                                                    -ms-transition:all 600ms ease;
+                                                                                                                    -moz-transition:all 600ms ease;
+                                                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                                                }
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideTechFrameProposedTagActual{
+
+                                                                                                                        width:100%;
+                                                                                                                        font-size:13px;
+                                                                                                                        color:#3A5668;
+                                                                                                                        font-family:"NeomSans-Light", "sans-serif";
+                                                                                                                        letter-spacing:1px;
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+                                                                                                            /* TIME STAMP TECHFRAME CONTAINER */
+                                                                                                            /* ============================== */
+
+                                                                                                                .hpApproverChangesRequestSectionReviewSideTechFrameProposedImageContainer{
+
+                                                                                                                    width:100px;
+                                                                                                                    height:100px;
+                                                                                                                    margin:15px 0px 0px 0px;
+                                                                                                                    display:block;
+                                                                                                                    padding:10px 10px;
+                                                                                                                    position:relative;
+                                                                                                                    background:#FFFFFF;
+                                                                                                                    box-shadow:0px 20px 30px -10px rgba(0,0,0,0.30);
+                                                                                                                    border-radius:10px;
+                                                                                                                    transition:all 600ms ease;
+                                                                                                                    -o-transition:all 600ms ease;
+                                                                                                                    -ms-transition:all 600ms ease;
+                                                                                                                    -moz-transition:all 600ms ease;
+                                                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                                                }
+
+                                                                                                                    .hpApproverChangesRequestSectionReviewSideTechFrameProposedImageActual{
+
+                                                                                                                        width:100px;
+                                                                                                                        height:100px;
+                                                                                                                        top:0;
+                                                                                                                        left:0;
+                                                                                                                        right:0;
+                                                                                                                        bottom:0;
+                                                                                                                        margin:auto;
+                                                                                                                        position:absolute;
+                                                                                                                        background:#20c72e;
+                                                                                                                        border-radius:5px;
+                                                                                                                        box-shadow:0px 15px 10px -10px rgba(0,0,0,0.30);
+                                                                                                                        transition:all 600ms ease;
+                                                                                                                        -o-transition:all 600ms ease;
+                                                                                                                        -ms-transition:all 600ms ease;
+                                                                                                                        -moz-transition:all 600ms ease;
+                                                                                                                        -webkit-transition:all 600ms ease;
+
+                                                                                                                    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                        
+
+
+
+                                                                            /* REVIEW CONTENT ACCEPT REJECT BUTTON BLOCK  */
+                                                                            /* ========================================== */
+
+                                                                                .hpApproverChangesRequestSectionReviewSideAcceptRejectButtonChangeContainer{
+
+                                                                                    width:100%;
+                                                                                    display:inline-table;
+                                                                                    margin:0px 0px 0px 0px;
+                                                                                    transition:all 600ms ease;
+                                                                                    -o-transition:all 600ms ease;
+                                                                                    -ms-transition:all 600ms ease;
+                                                                                    -moz-transition:all 600ms ease;
+                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                }
+
+
+
+
+
+                                                                                    /* ACCEPT BUTTON ==================== */
+                                                                                    /* ================================== */
+
+                                                                                        .hpApproverChangesRequestSectionReviewSideAcceptRejectButtonAcceptButtonContainer{
+
+                                                                                            width:max-content;
+                                                                                            float:left;
+                                                                                            padding:0px 0px 0px 20px;
+                                                                                            transition:all 600ms ease;
+                                                                                            -o-transition:all 600ms ease;
+                                                                                            -ms-transition:all 600ms ease;
+                                                                                            -moz-transition:all 600ms ease;
+                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                        }
+
+                                                                                            .hpApproverChangesRequestSectionReviewSideAcceptRejectButtonAcceptButtonTextActual{
+
+                                                                                                width:max-content;
+                                                                                                color:#FFFFFF;
+                                                                                                cursor:pointer;
+                                                                                                padding:10px 25px 14px 25px;
+                                                                                                font-size:13px;
+                                                                                                background:#3A5668;
+                                                                                                font-family:"NeomSans-Light", "sans-serif";
+                                                                                                font-weight:bold;
+                                                                                                border-radius:1000px;
+                                                                                                letter-spacing:1px;
+                                                                                                transition:all 600ms ease;
+                                                                                                -o-transition:all 600ms ease;
+                                                                                                -ms-transition:all 600ms ease;
+                                                                                                -moz-transition:all 600ms ease;
+                                                                                                -webkit-transition:all 600ms ease;
+
+                                                                                            }
+
+
+
+                                                                                
+
+                                                                                    /* REJECT BUTTON ==================== */
+                                                                                    /* ================================== */
+
+                                                                                        .hpApproverChangesRequestSectionReviewSideAcceptRejectButtonRejectButtonContainer{
+
+                                                                                            width:max-content;
+                                                                                            float:left;
+                                                                                            padding:0px 0px 0px 10px;
+                                                                                            transition:all 600ms ease;
+                                                                                            -o-transition:all 600ms ease;
+                                                                                            -ms-transition:all 600ms ease;
+                                                                                            -moz-transition:all 600ms ease;
+                                                                                            -webkit-transition:all 600ms ease;
+
+                                                                                        }
+
+                                                                                            .hpApproverChangesRequestSectionReviewSideAcceptRejectButtonRejectButtonTextActual{
+
+                                                                                                width:max-content;
+                                                                                                color:#FFFFFF;
+                                                                                                cursor:pointer;
+                                                                                                padding:10px 25px 14px 25px;
+                                                                                                font-size:13px;
+                                                                                                background:#3A5668;
+                                                                                                font-family:"NeomSans-Light", "sans-serif";
+                                                                                                font-weight:bold;
+                                                                                                border-radius:1000px;
+                                                                                                letter-spacing:1px;
+                                                                                                transition:all 600ms ease;
+                                                                                                -o-transition:all 600ms ease;
+                                                                                                -ms-transition:all 600ms ease;
+                                                                                                -moz-transition:all 600ms ease;
+                                                                                                -webkit-transition:all 600ms ease;
+
+                                                                                            }

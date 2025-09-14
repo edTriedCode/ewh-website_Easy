@@ -15,6 +15,8 @@
 
     const getSeason = process.env.openSeason
 
+    mongoose.connect(getSeason)
+
 // SETUP EXPRESS ==============================================================
 // ============================================================================
 
@@ -198,21 +200,19 @@
                 // SETUP FIND SCHEMA FROM MONGO DB ============================
                 // ============================================================
 
-                    // introCurrentContent.find().then((introCurrents => {
+                    introCurrentContent.find().then((introCurrents => {
 
 
-                    //     // RENDER PAGE WITH RETRIEVED LIST ====================
-                    //     // ====================================================
+                        // RENDER PAGE WITH RETRIEVED LIST ====================
+                        // ====================================================
 
-                    //         res.render("mainSiteRoutes/indexMainSite", {
+                            res.render("mainSiteRoutes/indexMainSite", {
 
-                    //             introContentStylesList: introCurrents
+                                introContentStylesList: introCurrents
 
-                    //         })
+                            })
 
-                    // }))
-
-                    res.render("mainSiteRoutes/indexMainSite")
+                    }))
 
             })
 
@@ -278,17 +278,46 @@
                 // SETUP FIND SCHEMA FROM MONGO DB ============================
                 // ============================================================
 
+                    introCurrentContent.find().then((changeRequest => {
+
+
+                        // RENDER PAGE WITH RETRIEVED LIST ====================
+                        // ====================================================
+
+                            res.render("approverSiteRoutes/indexApproverSite", {
+
+                                changeRequestList: changeRequest
+
+                            })
+
+                    }))
 
 
 
 
+                    // introCurrentContent.find().then((changeRequest => {
+
+                    //     introCurrentContent.find().then((testCase => {
+
+
+                            
+
+
+                    //         // RENDER PAGE WITH RETRIEVED LIST ====================
+                    //         // ====================================================
+
+                    //             res.render("approverSiteRoutes/indexApproverSite", {
+
+                    //                 changeRequestList: changeRequest,
+                    //                 testList: testCase
+
+                    //             })
 
 
 
-                // RENDER PAGE VIEW ===========================================
-                // ============================================================
+                    //     }))
 
-                    res.render("approverSiteRoutes/indexApproverSite")
+                    // }))
 
 
 
