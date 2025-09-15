@@ -17,6 +17,9 @@
                 var getChangeRequestSliderCloseButton = document.querySelector(`.hpApproverChangesRequestSectionReviewSideBackButtonElement`)
                 var getChangeRequestSliderMainContentContainer = document.querySelector(`.hpApproverChangesRequestSectionReviewSideResizer`)
 
+                var getChangeRequestSubMain = document.querySelector(`.hpApproverChangesRequestSectionReviewSideSubContainer`)
+                var getChangeRequestSubContentResizer = document.querySelector(`.hpApproverChangesRequestSectionReviewSideSubResizer`)
+
                     // REQUEST CHANGES SLIDER AND CONTENTS STYLES ==================== //
                     // =============================================================== //
 
@@ -151,8 +154,6 @@
                 // REQUESTED CARD ELEMENTS RETRIEVER BUTTON STRINGS ================== //
                 // =================================================================== //
 
-                    var getSelectedButton = ""
-
 
 
 
@@ -164,6 +165,25 @@
 
             // MAIN ELEMENTS ARRAYS ================================================== //
             // ======================================================================= //
+
+                // FOR CLASS MAPPING ================================================ //
+                // ================================================================== //
+
+                    var classNumberMappers = [
+
+                        `One`, `Two`, `Three`, `Four`, `Five`, `Six`, `Seven`, `Eight`, `Nine`, `Ten`,
+                        `Eleevn`, `Twelve`, `Thirteen`, `Fourteen`, `Fifteen`, `Sixteen`, `Seventeen`, `Eighteen`, `Nineteen`, `Twenty`,
+                        `TwentyOne`, `TwentyTwo`, `TwentyThree`, `TwentyFour`, `TwentyFive`, `TwentySix`, `TwentySeven`, `TwentyEight`, `TwentyNine`, `Thirty`,
+                        `ThirtyOne`, `ThirtyTwo`, `ThirtyThree`, `ThirtyFour`, `ThirtyFive`, `ThirtySix`, `ThirtySeven`, `ThirtyEight`, `ThirtyNine`, `Fourty`,
+                        `FourtyOne`, `FourtyTwo`, `FourtyThree`, `FourtyFour`, `FourtyFive`, `FourtySix`, `FourtySeven`, `FourtyEight`, `FourtyNine`, `Fifty`
+
+                    ]
+
+                    var randomColorTester = [
+
+                        "#520ec0", "2c2c2c", "#4acb63", "#e38ce7"
+
+                    ]
 
                 // FOR TECHFRAMES ==================================================== //
                 // =================================================================== //
@@ -330,12 +350,8 @@
                 // CURRENT CARD ELEMENTS RETRIEVER BUTTON ARRAYS ===================== //
                 // =================================================================== //
 
-                    var currentCardbuttonClassName = []
-
                 // REQUESTED CARD ELEMENTS RETRIEVER BUTTON ARRAYS =================== //
                 // =================================================================== //
-
-                    var requestChangeCardbuttonClassName = []
 
 
 
@@ -429,129 +445,557 @@
 
                                 }
 
-                                
 
 
 
 
-        // CLICKER DETECT VARIABLES ================================================== //
-        // =========================================================================== //
-
-            window.addEventListener("click", function (obj) {
-
-                console.log("SELECTED: " + obj.srcElement.className)
-
-                getSelectedButton = obj.srcElement.className
-
-                    // CHECK IF BUTTONS ARE CLICKED ====================== //
-                    // =================================================== //
 
 
-                        // CHECK IF CURRENT PAGE DATA BUTTON IS CLICKED == //
-                        // =============================================== //
 
-                            if ( getSelectedButton.includes("MainBranches") && getSelectedButton.includes("ButtonActual")) {
 
-                                // IF HOME PAGE BLOCK SELECTED =========== //
-                                // ======================================= //
 
-                                    if ( getSelectedButton.includes("HomePage") ) {
 
-                                        console.log("home page current clicked...")
 
-                                        // EMPTY OUT ARRAY =============== //
-                                        // =============================== //
+        // DATA RETRIEVERS CONTENT CARDS BUILDING AUTO RUNS ========================= //
+        // ========================================================================== //
 
-                                            currentCardbuttonClassName = []
+            // FOR CURRENT CARDS CREATION =========================================== //
+            // ====================================================================== //
 
-                                        // ADD NEW CLASS NAME TO ARRAY === //
-                                        // =============================== //
+            // FOR REQUEST CHANGES CARDS CREATION =================================== //
+            // ====================================================================== //
 
-                                            currentCardbuttonClassName.push(getSelectedButton)
+                // RUN LOOP FOR CARD CREATION POPULATION ============================ //
+                // ================================================================== //
 
-                                    }
+                    var requestedChangesReviewButtonCollector = []
 
-                            }
-                    
+                    for ( requestChangeCardCreationCounter = 0; requestChangeCardCreationCounter < proposedChangesArray.length; requestChangeCardCreationCounter++ ) {
 
-                        // CHECK IF CURRENT PAGE DATA BUTTON IS CLICKED == //
-                        // =============================================== //
 
-                            if ( 
-                                
-                                    getSelectedButton.includes("ChangesRequest") && 
-                                    getSelectedButton.includes("SeeRequest") &&
-                                    getSelectedButton.includes("ButtonActual")
+                        // VARIABLES FOR USE ======================================== //
+                        // ========================================================== //
 
-                                ) 
-                                
-                            {
+                            var getChangesCardHostContainer = document.querySelector(`.hpApproverChangesRequestSectionContentSideResizer`)
 
-                                // IF REQUEST BUTTON HAS NUMBER ========== //
-                                // ======================================= //
 
-                                    console.log("request button selected...")
+                        // CHECK IF THERE IS NO CONTENT TO PROUCE =================== //
+                        // ========================================================== //
 
-                                        // EMPTY OUT ARRAY =============== //
-                                        // =============================== //
+                            if ( getFirstChildrenLength == 0 || getFirstChildrenLength < 0 ) {
 
-                                            requestChangeCardbuttonClassName = []
-
-                                        // ADD NEW CLASS NAME TO ARRAY === //
-                                        // =============================== //
-
-                                            requestChangeCardbuttonClassName.push(getSelectedButton)
-
-                                        // OPEN REQUEST CHANGE VIEWER TAB  //
-                                        // =============================== //
-
-                                            openRequestViewer()
-
-                                        // LOAD UP CURRENT PAGE DATA ====  //
-                                        // =============================== //
-
-                                            fillCurrentHomePageIntroStylesFillersFunction()
-
+                                console.log("NO DATA...")
 
                             }
 
 
+                        // CHECK IF THERE IS CONTENT TO PROUCE ====================== //
+                        // ========================================================== //
+
+                            else {
+
+
+                                // CREATION VARIABLES =============================== //
+                                // ================================================== //
+
+                                    var createRequestCardContainer =  document.createElement("div")
+                                    createRequestCardContainer.className = `hpApproverChangesRequestCard${classNumberMappers[requestChangeCardCreationCounter]}Container`
+
+                                        var createRequestCardElement = document.createElement("div")
+                                        createRequestCardElement.className = `hpApproverChangesRequestCard${classNumberMappers[requestChangeCardCreationCounter]}Element`
+
+                                            var createRequestCardElementContentResizer = document.createElement("div")
+                                            createRequestCardElementContentResizer.className = `hpApproverChangesRequestCard${classNumberMappers[requestChangeCardCreationCounter]}ElementsContentResizer`
+
+
+
+                                                var createRequestCardElementContentHeadlineContainer = document.createElement("div")
+                                                createRequestCardElementContentHeadlineContainer.className = `hpApproverChangesRequestCard${classNumberMappers[requestChangeCardCreationCounter]}HeadlineContainer`
+
+                                                    var createRequestCardElementContentHeadlineActual = document.createElement("div")
+                                                    createRequestCardElementContentHeadlineActual.className = `hpApproverChangesRequestCard${classNumberMappers[requestChangeCardCreationCounter]}HeadlineActual`
+
+                                            
+
+                                                var createRequestCardElementContentDetailsContainer = document.createElement("div")
+                                                createRequestCardElementContentDetailsContainer.className = `hpApproverChangesRequestCard${classNumberMappers[requestChangeCardCreationCounter]}RequesterDetailsContainer`
+
+                                                    var createRequestCardElementContentDetailDepartmentHeadlineActual = document.createElement("div")
+                                                    createRequestCardElementContentDetailDepartmentHeadlineActual.className = `hpApproverChangesRequestCard${classNumberMappers[requestChangeCardCreationCounter]}RequesterDepartmentHeadlineActual`
+
+                                                    var createRequestCardElementContentDetailIndividualHeadlineActual = document.createElement("div")
+                                                    createRequestCardElementContentDetailIndividualHeadlineActual.className = `hpApproverChangesRequestCard${classNumberMappers[requestChangeCardCreationCounter]}RequesterIndividualHeadlineActual`
+
+                                                    var createRequestCardElementContentDetailDateHeadlineActual = document.createElement("div")
+                                                    createRequestCardElementContentDetailDateHeadlineActual.className = `hpApproverChangesRequestCard${classNumberMappers[requestChangeCardCreationCounter]}RequesterDateHeadlineActual`
+
+
+
+                                                var createRequestCardElementContentSeeRequestButtonContainer = document.createElement("div")
+                                                createRequestCardElementContentSeeRequestButtonContainer.className = `hpApproverChangesRequestCard${classNumberMappers[requestChangeCardCreationCounter]}SeeRequestButtonContainer`
+
+                                                    var createRequestCardElementContentSeeRequestButtonActual = document.createElement("div")
+                                                    createRequestCardElementContentSeeRequestButtonActual.className = `hpApproverChangesRequestCard${classNumberMappers[requestChangeCardCreationCounter]}SeeRequestButtonActual`
 
 
 
 
-                // CLICKERS FOR LISTED BUTTONS =========================== //
-                // ======================================================= //
+                                // ADD SEE REQUEST BUTTON CLASS NAME TO EVENTS ARRAY COLLECTOR //
+                                // =========================================================== //
 
-                    var getCurrentDataOpenButton = document.querySelector(`.${currentCardbuttonClassName[0]}`)
-                    var getRequestChangeOpenButton = document.querySelector(`.${requestChangeCardbuttonClassName[0]}`)
-
+                                    requestedChangesReviewButtonCollector.push(createRequestCardElementContentSeeRequestButtonActual.className)
 
 
+                                // STYLING ELEMENTS ================================= //
+                                // ================================================== //
+
+                                    createRequestCardContainer.style = `
+                                    
+                                        width:300px;
+                                        height:max-content;
+                                        left:0;
+                                        right:0;
+                                        float:left;
+                                        margin:0px auto;
+                                        display:block;
+                                        padding:20px 0px;
+                                        position:relative;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+                                        createRequestCardElement.style = `
+                                        
+                                                width:250px;
+                                                height:max-content;
+                                                top:0;
+                                                left:0;
+                                                right:0;
+                                                bottom:0;
+                                                border:3px solid #3A5668;
+                                                margin:auto;
+                                                display:block;
+                                                padding:20px 0px;
+                                                position:relative;
+                                                background:#CAEAEA;
+                                                border-radius:10px;
+                                                box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.30);
+                                                transition:all 600ms ease;
+                                                -o-transition:all 600ms ease;
+                                                -ms-transition:all 600ms ease;
+                                                -moz-transition:all 600ms ease;
+                                                -webkit-transition:all 600ms ease;
+
+                                        `
+
+                                            createRequestCardElementContentResizer.style = `
+                                            
+                                                width:80%;
+                                                height:90%;
+                                                margin:auto;
+                                                transition:all 600ms ease;
+                                                -o-transition:all 600ms ease;
+                                                -ms-transition:all 600ms ease;
+                                                -moz-transition:all 600ms ease;
+                                                -webkit-transition:all 600ms ease;
+
+                                            `
+
+
+                                                createRequestCardElementContentHeadlineContainer.style = `
+                                                
+                                                    width:100%;
+                                                    transition:all 600ms ease;
+                                                    -o-transition:all 600ms ease;
+                                                    -ms-transition:all 600ms ease;
+                                                    -moz-transition:all 600ms ease;
+                                                    -webkit-transition:all 600ms ease;
+
+                                                `
+
+                                                    createRequestCardElementContentHeadlineActual.style = `
+                                                    
+                                                        width:100%;
+                                                        font-size:15px;
+                                                        font-family:"NeomSans-Bold", "sans-serif";
+                                                        letter-spacing:2px;
+                                                        text-transform:uppercase;
+                                                        transition:all 600ms ease;
+                                                        -o-transition:all 600ms ease;
+                                                        -ms-transition:all 600ms ease;
+                                                        -moz-transition:all 600ms ease;
+                                                        -webkit-transition:all 600ms ease;
+
+                                                    `
+
+
+
+                                                createRequestCardElementContentDetailsContainer.style = `
+                                                
+                                                    width:100%;
+                                                    margin:20px 0px 0px 0px;
+                                                    transition:all 600ms ease;
+                                                    -o-transition:all 600ms ease;
+                                                    -ms-transition:all 600ms ease;
+                                                    -moz-transition:all 600ms ease;
+                                                    -webkit-transition:all 600ms ease;
+
+                                                `
+
+                                                    createRequestCardElementContentDetailDepartmentHeadlineActual.style = `
+                                                    
+                                                        width:100%;
+                                                        margin:0px 0px 0px 0px;
+                                                        font-size:12px;
+                                                        font-family:"NeomSans-Light", "sans-serif";
+                                                        font-weight:bold;
+                                                        letter-spacing:1px;
+                                                        transition:all 600ms ease;
+                                                        -o-transition:all 600ms ease;
+                                                        -ms-transition:all 600ms ease;
+                                                        -moz-transition:all 600ms ease;
+                                                        -webkit-transition:all 600ms ease;
+
+                                                    `
+
+                                                    createRequestCardElementContentDetailIndividualHeadlineActual.style = `
+                                                    
+                                                        width:100%;
+                                                        margin:10px 0px 0px 0px;
+                                                        font-size:12px;
+                                                        font-family:"NeomSans-Light", "sans-serif";
+                                                        font-weight:bold;
+                                                        letter-spacing:1px;
+                                                        transition:all 600ms ease;
+                                                        -o-transition:all 600ms ease;
+                                                        -ms-transition:all 600ms ease;
+                                                        -moz-transition:all 600ms ease;
+                                                        -webkit-transition:all 600ms ease;
+
+                                                    `
+
+                                                    createRequestCardElementContentDetailDateHeadlineActual.style = `
+                                                    
+                                                        width:100%;
+                                                        margin:10px 0px 0px 0px;
+                                                        font-size:12px;
+                                                        font-family:"NeomSans-Light", "sans-serif";
+                                                        font-weight:bold;
+                                                        letter-spacing:1px;
+                                                        transition:all 600ms ease;
+                                                        -o-transition:all 600ms ease;
+                                                        -ms-transition:all 600ms ease;
+                                                        -moz-transition:all 600ms ease;
+                                                        -webkit-transition:all 600ms ease;
+
+                                                    `
+
+                                                createRequestCardElementContentSeeRequestButtonContainer.style = `
+                                                
+                                                    width:100%;
+                                                    margin:40px 0px 0px 0px;
+                                                    transition:all 600ms ease;
+                                                    -o-transition:all 600ms ease;
+                                                    -ms-transition:all 600ms ease;
+                                                    -moz-transition:all 600ms ease;
+                                                    -webkit-transition:all 600ms ease;
+
+                                                `
+
+                                                    createRequestCardElementContentSeeRequestButtonActual.style = `
+                                                    
+                                                            width:max-content;
+                                                            color:#FFFFFF;
+                                                            cursor:pointer;
+                                                            padding:10px 25px 14px 25px;
+                                                            font-size:13px;
+                                                            background:#3A5668;
+                                                            font-family:"NeomSans-Light", "sans-serif";
+                                                            font-weight:bold;
+                                                            border-radius:1000px;
+                                                            letter-spacing:1px;
+                                                            transition:all 600ms ease;
+                                                            -o-transition:all 600ms ease;
+                                                            -ms-transition:all 600ms ease;
+                                                            -moz-transition:all 600ms ease;
+                                                            -webkit-transition:all 600ms ease;
+
+                                                    `
 
 
 
 
 
 
-                    
+                                // ADD TEXT ELEMENTS TO BLOCKS ====================== //
+                                // ================================================== //
+
+                                                    createRequestCardElementContentHeadlineActual.textContent = `REQUEST FOR HOME INTRO SECTION`
+
+                                                    createRequestCardElementContentDetailDepartmentHeadlineActual.textContent = `from: Department`
+
+                                                    createRequestCardElementContentDetailIndividualHeadlineActual.textContent = `by: That person`
+
+                                                    createRequestCardElementContentDetailDateHeadlineActual.textContent = `on: ${proposedChangesArray[0][2]}`
+
+                                                    createRequestCardElementContentSeeRequestButtonActual.textContent = `see request`
 
 
-                // EVENTS FOR SELECTED BUTTONS =========================== //
-                // ======================================================= //
-
-                    // EVENTS CURRENT DATA SECTIONS ====================== //
-                    // =================================================== //
-
-
-                    // EVENTS REQUEST CHANGE SECTIONS ==================== //
-                    // =================================================== //
-
-                    
 
 
 
-            })
+
+                                // APPEND ELEMENTS ================================== //
+                                // ================================================== //
+
+                                    getChangesCardHostContainer.appendChild(createRequestCardContainer)
+
+                                        createRequestCardContainer.appendChild(createRequestCardElement)
+
+                                            createRequestCardElement.appendChild(createRequestCardElementContentResizer)
+                                            
+
+
+                                                createRequestCardElementContentResizer.appendChild(createRequestCardElementContentHeadlineContainer)
+
+                                                    createRequestCardElementContentHeadlineContainer.appendChild(createRequestCardElementContentHeadlineActual)
+                                            
+
+
+                                                createRequestCardElementContentResizer.appendChild(createRequestCardElementContentDetailsContainer)
+
+                                                    createRequestCardElementContentDetailsContainer.appendChild(createRequestCardElementContentDetailDepartmentHeadlineActual)
+
+                                                    createRequestCardElementContentDetailsContainer.appendChild(createRequestCardElementContentDetailIndividualHeadlineActual)
+
+                                                    createRequestCardElementContentDetailsContainer.appendChild(createRequestCardElementContentDetailDateHeadlineActual)
+                                            
+
+
+                                                createRequestCardElementContentResizer.appendChild(createRequestCardElementContentSeeRequestButtonContainer)
+
+                                                    createRequestCardElementContentSeeRequestButtonContainer.appendChild(createRequestCardElementContentSeeRequestButtonActual)
+
+
+
+                            }
+
+
+                    }
+
+
+
+                // RUN BUTTON EVENT LISTENER LABELER ================================ //
+                // ================================================================== //
+
+                    requestedChangesReviewButtonCollector.forEach(buttonSelector => {
+
+                        var makeButtonElement = document.querySelector(`.${buttonSelector}`)
+
+                        makeButtonElement.addEventListener("click", function () {
+
+
+                            // GET CLICKED BUTTON NUMBER  //
+                            // =============================== //
+
+                                var getButtonOrderNumber = requestedChangesReviewButtonCollector.indexOf(makeButtonElement.className)
+
+                                    console.log("CLICKED: " + getButtonOrderNumber)
+
+                            // OPEN REQUEST CHANGE VIEWER TAB  //
+                            // =============================== //
+
+                                openRequestViewer()
+
+
+
+
+
+
+                            // CHECK BUTTON PAGE ASSOCIATION ======================== //
+                            // ====================================================== //
+
+                                // GET TRACER VARIABLE ============================== //
+                                // ================================================== //
+
+                                    var getCardRequestmainHeadline = document.querySelector(`.hpApproverChangesRequestCard${classNumberMappers[getButtonOrderNumber]}HeadlineActual`)
+
+
+
+
+                                        // IF BUTTON IS HOME PAGE RELATED =========== //
+                                        // ========================================== //
+
+                                            if ( 
+                                                
+                                                    getCardRequestmainHeadline.textContent.includes("home") ||
+                                                    getCardRequestmainHeadline.textContent.includes("HOME") ||
+                                                    getCardRequestmainHeadline.textContent.includes("home page") ||
+                                                    getCardRequestmainHeadline.textContent.includes("HOME PAGE")
+                                                
+                                                ) 
+                                                
+                                            {
+
+
+                                                // CHECK COMPONENT SECTION ASSOCIATION //
+                                                // =================================== //
+
+
+                                                
+
+                                                    // IF CHANGE IS FOR NAV BAR SECTION //
+                                                    // ================================ //
+
+                                                        if ( 
+                                                            
+                                                                getCardRequestmainHeadline.textContent.includes("nav bar") ||
+                                                                getCardRequestmainHeadline.textContent.includes("NAV BAR") ||
+                                                                getCardRequestmainHeadline.textContent.includes("nav bar section") ||
+                                                                getCardRequestmainHeadline.textContent.includes("NAV BAR SECTION") 
+                                                            
+                                                            )
+                                                            
+                                                            
+                                                        {
+
+                                                            console.log("HOME NAV BAR SECTION SELECTED...")
+
+                                                        }
+
+
+                                                
+
+                                                    // IF CHANGE IS FOR INTRO SECTION = //
+                                                    // ================================ //
+
+                                                        else if ( 
+                                                            
+                                                                getCardRequestmainHeadline.textContent.includes("intro") ||
+                                                                getCardRequestmainHeadline.textContent.includes("intro") ||
+                                                                getCardRequestmainHeadline.textContent.includes("intro section") ||
+                                                                getCardRequestmainHeadline.textContent.includes("INTRO SECTION") 
+                                                            
+                                                            )
+                                                            
+                                                            
+                                                        {
+
+                                                            console.log("HOME INTRO SECTION SELECTED...")
+
+                                                            // LOAD UP CURRENT CONFIGURATIONS DATA FOR HOME PAGE INTRO SECTION //
+                                                            // =============================================================== //
+
+                                                                fillCurrentHomePageIntroStylesFillersFunction()
+
+                                                                    // LOAD UP CURRENT DATA TO SUBMISSION FORM =============== //
+                                                                    // ======================================================= //
+
+                                                                        
+
+                                                            // LOAD UP PROPOSED CONFIGURATIONS DATA FOR HOME PAGE INTRO SECTION //
+                                                            // ================================================================ //
+
+                                                                fillProposedHomePageIntroStylesFillersFunction(getButtonOrderNumber)
+
+                                                                    // LOAD UP PROPOSED DATA TO SUBMISSION FORM ============== //
+                                                                    // ======================================================= //
+
+
+
+                                                                        
+
+
+
+                                                        }
+
+
+
+                                            }
+
+
+
+
+                                        // IF BUTTON IS DEPARTMENTS PAGE RELATED ==== //
+                                        // ========================================== //
+
+                                            else if ( 
+                                                
+                                                    getCardRequestmainHeadline.textContent.includes("departments") ||
+                                                    getCardRequestmainHeadline.textContent.includes("DEPARTMENTS") ||
+                                                    getCardRequestmainHeadline.textContent.includes("departments page") ||
+                                                    getCardRequestmainHeadline.textContent.includes("DEPARTMENTS PAGE")
+                                                
+                                                ) 
+                                                
+                                            {
+
+
+                                                // CHECK COMPONENT SECTION ASSOCIATION //
+                                                // =================================== //
+
+
+                                                
+
+                                                    // IF CHANGE IS FOR NAV BAR SECTION //
+                                                    // ================================ //
+
+                                                        if ( 
+                                                            
+                                                                getCardRequestmainHeadline.textContent.includes("nav bar") ||
+                                                                getCardRequestmainHeadline.textContent.includes("NAV BAR") ||
+                                                                getCardRequestmainHeadline.textContent.includes("nav bar section") ||
+                                                                getCardRequestmainHeadline.textContent.includes("NAV BAR SECTION") 
+                                                            
+                                                            )
+                                                            
+                                                            
+                                                        {
+
+                                                            console.log("DEPARTMENTS NAV BAR SECTION SELECTED...")
+
+                                                        }
+
+
+                                                
+
+                                                    // IF CHANGE IS FOR INTRO SECTION = //
+                                                    // ================================ //
+
+                                                        else if ( 
+                                                            
+                                                                getCardRequestmainHeadline.textContent.includes("intro") ||
+                                                                getCardRequestmainHeadline.textContent.includes("intro") ||
+                                                                getCardRequestmainHeadline.textContent.includes("intro section") ||
+                                                                getCardRequestmainHeadline.textContent.includes("INTRO SECTION") 
+                                                            
+                                                            )
+                                                            
+                                                            
+                                                        {
+
+                                                            console.log("DEPARTMENTS INTRO SECTION SELECTED...")
+
+                                                        }
+
+
+
+                                            }
+
+
+
+
+                        })
+
+                        
+                    });
+
+
+                    console.log("BITS: " + proposedChangesArray[0])
 
 
 
@@ -748,10 +1192,17 @@
 
                 }
 
+
+
+
+
+
+
+
             // FOR PROPOSED STYLES AND ELEMENTS FILLERS ============================== //
             // ======================================================================= //
 
-                function fillProposedHomePageIntroStylesFillersFunction () {
+                function fillProposedHomePageIntroStylesFillersFunction (proposedPackedArrayCounter) {
 
                     // PROPOSED CLASSNAME RETRIEVER COMBOS STYLES AND FILLERS ==== //
                     // =========================================================== //
@@ -777,7 +1228,7 @@
                                     bottom:0;
                                     margin:auto;
                                     position:absolute;
-                                    background:url(${proposedChangesArray[0][3]}); 
+                                    background:url(${proposedChangesArray[proposedPackedArrayCounter][3]}); 
                                     background-size:cover;
                                     background-repeat:no-repeat;
                                     background-position:center;
@@ -794,15 +1245,15 @@
                             // FOR HEADLINE TEXT ================================= //
                             // =================================================== //
 
-                                var proposedHeadlinerTextEngMaker = proposedChangesArray[0][4]
-                                var proposedHeadlinerTextArbMaker = proposedChangesArray[0][5]
+                                var proposedHeadlinerTextEngMaker = proposedChangesArray[proposedPackedArrayCounter][4]
+                                var proposedHeadlinerTextArbMaker = proposedChangesArray[proposedPackedArrayCounter][5]
 
 
                             // FOR SUB HEADLINE TEXT ============================= //
                             // =================================================== //
 
-                                var proposedSubHeadlinerTextEngMaker = proposedChangesArray[0][6]
-                                var proposedSubHeadlinerTextArbMaker = proposedChangesArray[0][7]
+                                var proposedSubHeadlinerTextEngMaker = proposedChangesArray[proposedPackedArrayCounter][6]
+                                var proposedSubHeadlinerTextArbMaker = proposedChangesArray[proposedPackedArrayCounter][7]
 
                                 console.log("ARA: " + proposedSubHeadlinerTextArbMaker)
                                 
@@ -810,9 +1261,9 @@
                             // FOR ACTION BUTTON ================================= //
                             // =================================================== //
 
-                                var proposedActionButtonTextEngMaker = proposedChangesArray[0][9]
-                                var proposedActionButtonTextArbMaker = proposedChangesArray[0][10]
-                                var proposedActionButtonStyleMaker = proposedChangesArray[0][11]
+                                var proposedActionButtonTextEngMaker = proposedChangesArray[proposedPackedArrayCounter][9]
+                                var proposedActionButtonTextArbMaker = proposedChangesArray[proposedPackedArrayCounter][10]
+                                var proposedActionButtonStyleMaker = proposedChangesArray[proposedPackedArrayCounter][11]
                                 
 
                             // FOR TECHFRAME ===================================== //
@@ -828,7 +1279,7 @@
                                     bottom:0;
                                     margin:auto;
                                     position:absolute;
-                                    background:url(${allTechFrames[proposedChangesArray[0][12]]});
+                                    background:url(${allTechFrames[proposedChangesArray[proposedPackedArrayCounter][12]]});
                                     background-size:cover;
                                     background-repeat:no-repeat;
                                     background-position:center;

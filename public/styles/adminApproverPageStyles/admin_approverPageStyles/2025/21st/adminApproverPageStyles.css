@@ -26,6 +26,17 @@
 
                 }
 
+                    .getChangeRequestDownloadSection{
+
+                        display:none;
+                        transition:all 600ms ease;
+                        -o-transition:all 600ms ease;
+                        -ms-transition:all 600ms ease;
+                        -moz-transition:all 600ms ease;
+                        -webkit-transition:all 600ms ease;
+
+                    }
+
             /* ======================================================================= */
             /* FONT ADDITIONS ======================================================== */
             /* ======================================================================= */
@@ -528,200 +539,6 @@
                                                 -webkit-transition:all 600ms ease;
 
                                             }
-
-
-
-                                                /* APPROVER HOME PAGE CHANGES REQUEST CONTENT CARD */
-                                                /* =================================== */
-
-                                                    .hpApproverChangesRequestCardContainer{
-
-                                                        width:300px;
-                                                        height:max-content;
-                                                        left:0;
-                                                        right:0;
-                                                        float:left;
-                                                        margin:0px auto;
-                                                        display:block;
-                                                        padding:20px 0px;
-                                                        position:relative;
-                                                        transition:all 600ms ease;
-                                                        -o-transition:all 600ms ease;
-                                                        -ms-transition:all 600ms ease;
-                                                        -moz-transition:all 600ms ease;
-                                                        -webkit-transition:all 600ms ease;
-
-                                                    }
-
-                                                        .hpApproverChangesRequestCardElement{
-
-                                                            width:250px;
-                                                            height:max-content;
-                                                            top:0;
-                                                            left:0;
-                                                            right:0;
-                                                            bottom:0;
-                                                            border:3px solid #3A5668;
-                                                            margin:auto;
-                                                            display:block;
-                                                            padding:20px 0px;
-                                                            position:relative;
-                                                            background:#CAEAEA;
-                                                            border-radius:10px;
-                                                            box-shadow:0px 20px 30px -10px rgba(0,0,0,0.30);
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
-
-                                                        }
-
-                                                            .hpApproverChangesRequestCardElementsResizer{
-
-                                                                width:80%;
-                                                                height:90%;
-                                                                margin:auto;
-                                                                transition:all 600ms ease;
-                                                                -o-transition:all 600ms ease;
-                                                                -ms-transition:all 600ms ease;
-                                                                -moz-transition:all 600ms ease;
-                                                                -webkit-transition:all 600ms ease;
-
-                                                            }
-
-                                            
-
-                                                /* CARD HEADLINER CONTAINER ========== */
-                                                /* =================================== */
-
-                                                    .hpApproverChangesRequestCardHeadlineContainer{
-
-                                                        width:100%;
-                                                        transition:all 600ms ease;
-                                                        -o-transition:all 600ms ease;
-                                                        -ms-transition:all 600ms ease;
-                                                        -moz-transition:all 600ms ease;
-                                                        -webkit-transition:all 600ms ease;
-
-                                                    }
-
-                                                        .hpApproverChangesRequestCardHeadlineActual{
-
-                                                            width:100%;
-                                                            font-size:15px;
-                                                            font-family:"NeomSans-Bold", "sans-serif";
-                                                            letter-spacing:2px;
-                                                            text-transform:uppercase;
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
-
-                                                        }
-
-                                            
-
-                                                /* CARD DETAILS CONTAINER ============ */
-                                                /* =================================== */
-
-                                                    .hpApproverChangesRequestCardRequesterDetailsContainer{
-
-                                                        width:100%;
-                                                        margin:20px 0px 0px 0px;
-                                                        transition:all 600ms ease;
-                                                        -o-transition:all 600ms ease;
-                                                        -ms-transition:all 600ms ease;
-                                                        -moz-transition:all 600ms ease;
-                                                        -webkit-transition:all 600ms ease;
-
-                                                    }
-
-                                                        .hpApproverChangesRequestCardRequesterDepartmentHeadlineActual{
-
-                                                            width:100%;
-                                                            margin:0px 0px 0px 0px;
-                                                            font-size:12px;
-                                                            font-family:"NeomSans-Light", "sans-serif";
-                                                            font-weight:bold;
-                                                            letter-spacing:1px;
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
-
-                                                        }
-
-                                                        .hpApproverChangesRequestCardRequesterIndividualHeadlineActual{
-
-                                                            width:100%;
-                                                            margin:10px 0px 0px 0px;
-                                                            font-size:12px;
-                                                            font-family:"NeomSans-Light", "sans-serif";
-                                                            font-weight:bold;
-                                                            letter-spacing:1px;
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
-
-                                                        }
-
-                                                        .hpApproverChangesRequestCardRequesterDateHeadlineActual{
-
-                                                            width:100%;
-                                                            margin:10px 0px 0px 0px;
-                                                            font-size:12px;
-                                                            font-family:"NeomSans-Light", "sans-serif";
-                                                            font-weight:bold;
-                                                            letter-spacing:1px;
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
-
-                                                        }
-
-                                            
-
-                                                /* CARD REQUEST BUTTON CONTAINER ===== */
-                                                /* =================================== */
-
-                                                    .hpApproverChangesRequestCardSeeRequestButtonContainer{
-
-                                                        width:100%;
-                                                        margin:40px 0px 0px 0px;
-                                                        transition:all 600ms ease;
-                                                        -o-transition:all 600ms ease;
-                                                        -ms-transition:all 600ms ease;
-                                                        -moz-transition:all 600ms ease;
-                                                        -webkit-transition:all 600ms ease;
-
-                                                    }
-
-                                                        .hpApproverChangesRequestCardSeeRequestButtonActual{
-
-                                                            width:max-content;
-                                                            color:#FFFFFF;
-                                                            cursor:pointer;
-                                                            padding:10px 25px 14px 25px;
-                                                            font-size:13px;
-                                                            background:#3A5668;
-                                                            font-family:"NeomSans-Light", "sans-serif";
-                                                            font-weight:bold;
-                                                            border-radius:1000px;
-                                                            letter-spacing:1px;
-                                                            transition:all 600ms ease;
-                                                            -o-transition:all 600ms ease;
-                                                            -ms-transition:all 600ms ease;
-                                                            -moz-transition:all 600ms ease;
-                                                            -webkit-transition:all 600ms ease;
-
-                                                        }
 
 
 
@@ -3375,3 +3192,61 @@
                                                                                                 -webkit-transition:all 600ms ease;
 
                                                                                             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                        
+
+
+
+                                                                            
+
+                                                                        /* SUBMISSION FORM CONTAINER ==================== */
+                                                                        /* ============================================== */
+
+                                                                            .hpApproverChangesRequestSectionReviewSideSubContainer{
+
+                                                                                width:100%;
+                                                                                margin:50px 0px 0px 0px;
+                                                                                padding:20px 0px;
+                                                                                background:#20c72e;
+                                                                                transition:all 600ms ease;
+                                                                                -o-transition:all 600ms ease;
+                                                                                -ms-transition:all 600ms ease;
+                                                                                -moz-transition:all 600ms ease;
+                                                                                -webkit-transition:all 600ms ease;
+
+                                                                            }
+
+                                                                                .hpApproverChangesRequestSectionReviewSideSubResizer{
+
+                                                                                    width:90%;
+                                                                                    left:0;
+                                                                                    right:0;
+                                                                                    margin:0px auto;
+                                                                                    padding:20px 0px;
+                                                                                    position:relative;
+                                                                                    background:#FFFFFF;
+                                                                                    transition:all 600ms ease;
+                                                                                    -o-transition:all 600ms ease;
+                                                                                    -ms-transition:all 600ms ease;
+                                                                                    -moz-transition:all 600ms ease;
+                                                                                    -webkit-transition:all 600ms ease;
+
+                                                                                }
