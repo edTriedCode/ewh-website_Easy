@@ -115,7 +115,17 @@
                             // TECHFRAME =====================================
                             // ===============================================
 
-                                introCurrentTechFrameMain:String
+                                introCurrentTechFrameMain:String,
+
+                            // SUBMITTER DEPARTMENT ==========================
+                            // ===============================================
+
+                                introCurrentSubmitterDepartmentMain:String,
+
+                            // SUBMITTER NAME ================================
+                            // ===============================================
+
+                                introCurrentSubmitterNameMain:String
 
                         }
 
@@ -425,7 +435,17 @@
                                 // TECHFRAME ==================================
                                 // ============================================
 
-                                    introCurrentTechFrameMain:req.body.mainScreenTechframe
+                                    introCurrentTechFrameMain:req.body.mainScreenTechframe,
+
+                                // SUBMITTER DEPARTMENT =======================
+                                // ============================================
+
+                                    introCurrentSubmitterDepartmentMain:"marketing",
+
+                                // SUBMITTER NAME =============================
+                                // ============================================
+
+                                    introCurrentSubmitterNameMain:"marketing"
 
 
                             })

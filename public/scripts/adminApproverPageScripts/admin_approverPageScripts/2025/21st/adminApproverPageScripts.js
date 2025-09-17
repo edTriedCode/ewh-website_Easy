@@ -331,6 +331,22 @@
 
                     var requestedChangesReviewElementsLoadoutArray = []
 
+
+
+
+
+
+                // PROPOSED CHANGES FIELD ELEMENTS LOADOUT ARRAYS ==================== //
+                // =================================================================== //
+
+                    // FOR HOME PAGE SUB FIELDS ====================================== //
+                    // =============================================================== //
+
+                        // FOR INTRO SECTION ========================================= //
+                        // =========================================================== //
+
+                            var submissionSubFoFieldsClassNameCollectorArray = []
+
             // CARD ELEMENTS ARRAYS ================================================== //
             // ======================================================================= //
 
@@ -353,11 +369,6 @@
                 // REQUESTED CARD ELEMENTS RETRIEVER BUTTON ARRAYS =================== //
                 // =================================================================== //
 
-
-
-
-        // NUMBER STRINGS VARIABLES ================================================== //
-        // =========================================================================== //
 
 
 
@@ -1193,12 +1204,6 @@
                 }
 
 
-
-
-
-
-
-
             // FOR PROPOSED STYLES AND ELEMENTS FILLERS ============================== //
             // ======================================================================= //
 
@@ -1384,6 +1389,885 @@
                                 `
 
                 }
+
+                
+
+
+
+
+
+
+
+
+        // FUNCTIONS FOR SUB CREATIONS =============================================== //
+        // =========================================================================== //
+
+            // FOR HOME PAGE ========================================================= //
+            // ======================================================================= //
+
+                // FOR INTRO SECTION SUBS ============================================ //
+                // =================================================================== //
+
+                    function subCreationFunction () {
+
+                        // CREATION VARIABLES ======================================== //
+                        // =========================================================== //
+
+                            var findSubFoMainContainer = document.querySelector(`.hpApproverChangesRequestSectionReviewSideSubResizer`)
+
+
+
+                            var createSubFoMain = document.createElement("div")
+                            createSubFoMain.className = `hpApproverChangesRequestsSectionReviewSubFoMain`
+
+
+
+                                var createSubFoIdContainerMain = document.createElement("div")
+                                createSubFoIdContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoIdContainer`
+
+                                    var createSubFoIdTextActual = document.createElement("input")
+                                    createSubFoIdTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoIdTextInputActual`
+
+
+
+                                var createSubFoTimeContainerMain = document.createElement("div")
+                                createSubFoTimeContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoTimeContainer`
+
+                                    var createSubFoTimeTextActual = document.createElement("input")
+                                    createSubFoTimeTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoTimeTextInputActual`
+
+
+
+                                var createSubFoDateContainerMain = document.createElement("div")
+                                createSubFoDateContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoTimeContainer`
+
+                                    var createSubFoDateTextActual = document.createElement("input")
+                                    createSubFoDateTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoDateTextInputActual`
+
+
+
+                                var createSubFoBackgroundContainerMain = document.createElement("div")
+                                createSubFoBackgroundContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoBackgroundContainer`
+
+                                    var createSubFoBackgroundTextActual = document.createElement("input")
+                                    createSubFoBackgroundTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoBackgroundTextInputActual`
+
+
+
+                                var createSubFoHeadlineEngContainerMain = document.createElement("div")
+                                createSubFoHeadlineEngContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoHeadlineEngContainer`
+
+                                    var createSubFoHeadlineEngTextActual = document.createElement("input")
+                                    createSubFoHeadlineEngTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoHeadlineEngTextInputActual`
+
+
+
+                                var createSubFoHeadlineArbContainerMain = document.createElement("div")
+                                createSubFoHeadlineArbContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoHeadlineArbContainer`
+
+                                    var createSubFoHeadlineArbTextActual = document.createElement("input")
+                                    createSubFoHeadlineArbTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoHeadlineArbTextInputActual`
+
+
+
+                                var createSubFoSubHeadlineEngContainerMain = document.createElement("div")
+                                createSubFoSubHeadlineEngContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoSubHeadlineEngContainer`
+
+                                    var createSubFoSubHeadlineEngTextActual = document.createElement("input")
+                                    createSubFoSubHeadlineEngTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoSubHeadlineEngTextInputActual`
+
+
+
+                                var createSubFoSubHeadlineArbContainerMain = document.createElement("div")
+                                createSubFoSubHeadlineArbContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoSubHeadlineArbContainer`
+
+                                    var createSubFoSubHeadlineArbTextActual = document.createElement("input")
+                                    createSubFoSubHeadlineArbTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoSubHeadlineArbTextInputActual`
+
+
+
+                                var createSubFoActionButtonStatusContainerMain = document.createElement("div")
+                                createSubFoActionButtonStatusContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoActionButtonStatusContainer`
+
+                                    var createSubFoActionButtonStatusTextActual = document.createElement("input")
+                                    createSubFoActionButtonStatusTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoActionButtonStatusTextInputActual`
+
+
+
+                                var createSubFoActionButtonEngTextContainerMain = document.createElement("div")
+                                createSubFoActionButtonEngTextContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoActionButtonEngTextContainer`
+
+                                    var createSubFoActionButtonEngTextActual = document.createElement("input")
+                                    createSubFoActionButtonEngTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoActionButtonEngTextInputActual`
+
+
+
+                                var createSubFoActionButtonArbTextContainerMain = document.createElement("div")
+                                createSubFoActionButtonArbTextContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoActionButtonArbTextContainer`
+
+                                    var createSubFoActionButtonArbTextActual = document.createElement("input")
+                                    createSubFoActionButtonArbTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoActionButtonArbTextInputActual`
+
+
+
+                                var createSubFoActionButtonStyleContainerMain = document.createElement("div")
+                                createSubFoActionButtonStyleContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoActionButtonArbTextContainer`
+
+                                    var createSubFoActionButtonStyleTextActual = document.createElement("input")
+                                    createSubFoActionButtonStyleTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoActionButtonStyleTextInputActual`
+
+
+
+                                var createSubFoTechFrameContainerMain = document.createElement("div")
+                                createSubFoTechFrameContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoTechFrameContainer`
+
+                                    var createSubFoTechFrameTextActual = document.createElement("input")
+                                    createSubFoTechFrameTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoTechFrameTextInputActual`
+
+
+
+                                var createSubFoDepartmentContainerMain = document.createElement("div")
+                                createSubFoDepartmentContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoDepartmentContainer`
+
+                                    var createSubFoDepartmentTextActual = document.createElement("input")
+                                    createSubFoDepartmentTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoDepartmentTextInputActual`
+
+
+
+                                var createSubFoRequesterNameContainerMain = document.createElement("div")
+                                createSubFoRequesterNameContainerMain.className = `hpApproverChangesRequestsSectionReviewSubFoRequesterNameContainer`
+
+                                    var createSubFoRequesterNameTextActual = document.createElement("input")
+                                    createSubFoRequesterNameTextActual.className = `hpApproverChangesRequestsSectionReviewSubFoRequesterNameTextInputActual`
+
+
+
+                            var createSubFoSubButtonContainer = document.createElement("div")
+                            createSubFoSubButtonContainer.className = `hpApproverChangesRequestsSectionReviewSubFoSubButtonContainer`
+
+                                var createSubFoSubButtonText = document.createElement("button")
+                                createSubFoSubButtonText.className = `hpApproverChangesRequestsSectionReviewSubFoSubButtonText`
+
+
+
+
+                        // PUSH CLASSNAMES TO ARRAY FOR FIELD SELECTION ============== //
+                        // =========================================================== //
+
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoIdTextInputActual")
+
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoTimeTextInputActual")
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoDateTextInputActual")
+
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoBackgroundTextInputActual")
+
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoHeadlineEngTextInputActual")
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoHeadlineArbTextInputActual")
+
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoSubHeadlineEngTextInputActual")
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoSubHeadlineArbTextInputActual")
+
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoActionButtonStatusTextInputActual")
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoActionButtonEngTextInputActual")
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoActionButtonArbTextInputActual")
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoActionButtonStyleTextInputActual")
+
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoTechFrameTextInputActual")
+
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoDepartmentTextInputActual")
+
+                            submissionSubFoFieldsClassNameCollectorArray.push("hpApproverChangesRequestsSectionReviewSubFoRequesterNameTextInputActual")
+
+
+
+
+                        // STYLE NEW CREATIONS ======================================= //
+                        // =========================================================== //
+
+                            createSubFoMain.style = `
+                            
+                                width:100%;
+                                height:100%;
+                                top:0;
+                                left:0;
+                                right:0;
+                                bottom:0;
+                                margin:0px auto;
+                                padding:20px 0px;
+                                position:relative;
+                                background:#FFFFFF;
+                                transition:all 600ms ease;
+                                -o-transition:all 600ms ease;
+                                -ms-transition:all 600ms ease;
+                                -moz-transition:all 600ms ease;
+                                -webkit-transition:all 600ms ease;
+
+                            `
+
+
+
+                                createSubFoIdContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoIdTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoTimeContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoTimeTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoDateContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoDateTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoBackgroundContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoBackgroundTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoHeadlineEngContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoHeadlineEngTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoHeadlineArbContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoHeadlineArbTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoSubHeadlineEngContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoSubHeadlineEngTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoSubHeadlineArbContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoSubHeadlineArbTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoActionButtonStatusContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoActionButtonStatusTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoActionButtonEngTextContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoActionButtonEngTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoActionButtonArbTextContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoActionButtonArbTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoActionButtonStyleContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoActionButtonStyleTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoTechFrameContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoTechFrameTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoDepartmentContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoDepartmentTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                                createSubFoRequesterNameContainerMain.style = `
+                                
+                                    width:100%;
+                                    margin:10px 0px 0px 0px;
+                                    position:relative;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+                                    createSubFoRequesterNameTextActual.style = `
+                                    
+                                        width:100%;
+                                        padding:10px 0px;
+                                        position:relative;
+                                        background:#FFFFFF;
+                                        box-shadow:0px 20px 30px -10px rgba(0, 0, 0, 0.35);
+                                        border-radius:10px;
+                                        transition:all 600ms ease;
+                                        -o-transition:all 600ms ease;
+                                        -ms-transition:all 600ms ease;
+                                        -moz-transition:all 600ms ease;
+                                        -webkit-transition:all 600ms ease;
+
+                                    `
+
+
+
+                            createSubFoSubButtonContainer.style = `
+                            
+                                width:100%;
+                                margin:10px 0px 0px 0px;
+                                position:relative;
+                                transition:all 600ms ease;
+                                -o-transition:all 600ms ease;
+                                -ms-transition:all 600ms ease;
+                                -moz-transition:all 600ms ease;
+                                -webkit-transition:all 600ms ease;
+
+                            `
+
+                                createSubFoSubButtonText.style = `
+                                
+                                    width:100%;
+                                    height:50px;
+                                    color:#FFFFFF;
+                                    cursor:pointer;
+                                    border:0px solid rgba(0, 0, 0, 0.00);
+                                    outline:none;
+                                    font-size:20px;
+                                    background:#3A5668;
+                                    line-height:50px;
+                                    font-family:"NeomSans-Bold", "sans-serif";
+                                    letter-spacing:2px;
+                                    transition:all 600ms ease;
+                                    -o-transition:all 600ms ease;
+                                    -ms-transition:all 600ms ease;
+                                    -moz-transition:all 600ms ease;
+                                    -webkit-transition:all 600ms ease;
+
+                                `
+
+
+
+
+                        // MATCH CURRENT COLLECTED ITEMS AND ADD TO FIELDS =========== //
+                        // =========================================================== //
+
+                            // FOR CURRENT ELEMENTS UPLOAD =========================== //
+                            // ======================================================= //
+
+                                for ( currentItemsCounter = 0; currentItemsCounter < proposedChangesArray.length; currentItemsCounter++ ) {
+
+                                    console.log("COLLECTED CURRENT ITEMS: " + currentItemsCounter)
+
+                                }
+
+                            // FOR PROPOSED CHANGES ELEMENTS UPLOAD ================== //
+                            // ======================================================= //
+
+
+
+
+                        // ADD TEXT TO SELECTED ELEMENTS ============================= //
+                        // =========================================================== //
+
+                            createSubFoIdTextActual.value = `ID HERE`
+
+                            createSubFoTimeTextActual.value = `TIME HERE`
+                            createSubFoDateTextActual.value = `DATE HERE`
+                            
+                            createSubFoBackgroundTextActual.value = `BACKGROUND HERE`
+                            
+                            createSubFoHeadlineEngTextActual.value = `HEADLINE ENG HERE`
+                            createSubFoHeadlineArbTextActual.value = `HEADLINE ARB HERE`
+                            
+                            createSubFoSubHeadlineEngTextActual.value = `SUB HEADLINE ENG HERE`
+                            createSubFoSubHeadlineArbTextActual.value = `SUB HEADLINE ARB HERE`
+                            
+                            createSubFoActionButtonStatusTextActual.value = `STATUS HERE`
+                            createSubFoActionButtonEngTextActual.value = `BUTTON TEXT ENG HERE`
+                            createSubFoActionButtonArbTextActual.value = `BUTTON TEXT ARB HERE`
+                            createSubFoActionButtonStyleTextActual.value = `BUTTON STYLE HERE`
+                            
+                            createSubFoTechFrameTextActual.value = `BUTTON STYLE HERE`
+
+                            createSubFoDepartmentTextActual.value = `SUBMITTER DEPARTMENT HERE`
+
+                            createSubFoRequesterNameTextActual.value = `SUBMITTER NAME HERE`
+
+
+
+
+                        // ADD ATTRIBUTES TO SELECTED ELEMENTS ======================= //
+                        // =========================================================== //
+
+                            createSubFoMain.setAttribute("method","post")
+                            createSubFoMain.setAttribute("action","/approverAdmin")
+
+
+                                createSubFoIdTextActual.setAttribute("name","idNewSubmit")
+                                    createSubFoIdTextActual.setAttribute("type","text")
+                                
+                                createSubFoTimeTextActual.setAttribute("name","timeNewSubmit")
+                                createSubFoDateTextActual.setAttribute("name","dateNewSubmit")
+
+                                    createSubFoTimeTextActual.setAttribute("type","text")
+                                    createSubFoDateTextActual.setAttribute("type","text")
+                                
+                                createSubFoBackgroundTextActual.setAttribute("name","backgroundNewSubmit")
+                                    createSubFoBackgroundTextActual.setAttribute("type","type")
+                                
+                                createSubFoHeadlineEngTextActual.setAttribute("name","headlineEngNewSubmit")
+                                createSubFoHeadlineArbTextActual.setAttribute("name","headlineArbNewSubmit")
+
+                                    createSubFoHeadlineEngTextActual.setAttribute("type","text")
+                                    createSubFoHeadlineArbTextActual.setAttribute("type","text")
+                                
+                                createSubFoSubHeadlineEngTextActual.setAttribute("name","subHeadlineEngNewSubmit")
+                                createSubFoSubHeadlineArbTextActual.setAttribute("name","subHeadlineArbNewSubmit")
+
+                                    createSubFoSubHeadlineEngTextActual.setAttribute("type","text")
+                                    createSubFoSubHeadlineArbTextActual.setAttribute("type","text")
+                                
+                                createSubFoActionButtonStatusTextActual.setAttribute("name","actionButtonStatusNewSubmit")
+                                createSubFoActionButtonEngTextActual.setAttribute("name","actionButtonTextEngNewSubmit")
+                                createSubFoActionButtonArbTextActual.setAttribute("name","actionButtonTextArbNewSubmit")
+                                createSubFoActionButtonStyleTextActual.setAttribute("name","actionButtonStyleNewSubmit")
+
+                                    createSubFoActionButtonStatusTextActual.setAttribute("type","text")
+                                    createSubFoActionButtonEngTextActual.setAttribute("type","text")
+                                    createSubFoActionButtonArbTextActual.setAttribute("type","text")
+                                    createSubFoActionButtonStyleTextActual.setAttribute("type","text")
+                                
+                                createSubFoTechFrameTextActual.setAttribute("name","techFrameNewSubmit")
+                                    createSubFoTechFrameTextActual.setAttribute("type","text")
+                                
+                                createSubFoDepartmentTextActual.setAttribute("name","departmentNewSubmit")
+                                    createSubFoDepartmentTextActual.setAttribute("type","type")
+                                
+                                createSubFoRequesterNameTextActual.setAttribute("name","reuesterNameNewSubmit")
+                                    createSubFoRequesterNameTextActual.setAttribute("type","type")
+
+
+                            createSubFoSubButtonText.setAttribute("value","submit")
+                                createSubFoSubButtonText.setAttribute("type","submit")
+
+
+
+
+                        // APPEND ELEMENTS TO SUB ==================================== //
+                        // =========================================================== //
+
+                            findSubFoMainContainer.appendChild(createSubFoMain)
+
+                                createSubFoMain.appendChild(createSubFoIdContainerMain)
+                                    createSubFoIdContainerMain.appendChild(createSubFoIdTextActual)
+
+                                createSubFoMain.appendChild(createSubFoTimeContainerMain)
+                                    createSubFoTimeContainerMain.appendChild(createSubFoTimeTextActual)
+
+                                createSubFoMain.appendChild(createSubFoDateContainerMain)
+                                    createSubFoDateContainerMain.appendChild(createSubFoDateTextActual)
+
+                                createSubFoMain.appendChild(createSubFoBackgroundContainerMain)
+                                    createSubFoBackgroundContainerMain.appendChild(createSubFoBackgroundTextActual)
+
+                                createSubFoMain.appendChild(createSubFoHeadlineEngContainerMain)
+                                    createSubFoHeadlineEngContainerMain.appendChild(createSubFoHeadlineEngTextActual)
+
+                                createSubFoMain.appendChild(createSubFoHeadlineArbContainerMain)
+                                    createSubFoHeadlineArbContainerMain.appendChild(createSubFoHeadlineArbTextActual)
+
+                                createSubFoMain.appendChild(createSubFoSubHeadlineEngContainerMain)
+                                    createSubFoSubHeadlineEngContainerMain.appendChild(createSubFoSubHeadlineEngTextActual)
+
+                                createSubFoMain.appendChild(createSubFoSubHeadlineArbContainerMain)
+                                    createSubFoSubHeadlineArbContainerMain.appendChild(createSubFoSubHeadlineArbTextActual)
+
+                                createSubFoMain.appendChild(createSubFoActionButtonStatusContainerMain)
+                                    createSubFoActionButtonStatusContainerMain.appendChild(createSubFoActionButtonStatusTextActual)
+
+                                createSubFoMain.appendChild(createSubFoActionButtonEngTextContainerMain)
+                                    createSubFoActionButtonEngTextContainerMain.appendChild(createSubFoActionButtonEngTextActual)
+
+                                createSubFoMain.appendChild(createSubFoActionButtonArbTextContainerMain)
+                                    createSubFoActionButtonArbTextContainerMain.appendChild(createSubFoActionButtonArbTextActual)
+
+                                createSubFoMain.appendChild(createSubFoActionButtonStyleContainerMain)
+                                    createSubFoActionButtonStyleContainerMain.appendChild(createSubFoActionButtonStyleTextActual)
+
+                                createSubFoMain.appendChild(createSubFoTechFrameContainerMain)
+                                    createSubFoTechFrameContainerMain.appendChild(createSubFoTechFrameTextActual)
+
+                                createSubFoMain.appendChild(createSubFoDepartmentContainerMain)
+                                    createSubFoDepartmentContainerMain.appendChild(createSubFoDepartmentTextActual)
+
+                                createSubFoMain.appendChild(createSubFoRequesterNameContainerMain)
+                                    createSubFoRequesterNameContainerMain.appendChild(createSubFoRequesterNameTextActual)
+
+                                createSubFoMain.appendChild(createSubFoSubButtonContainer)
+                                    createSubFoSubButtonContainer.appendChild(createSubFoSubButtonText)
+
+
+                    }
 
                 
 
