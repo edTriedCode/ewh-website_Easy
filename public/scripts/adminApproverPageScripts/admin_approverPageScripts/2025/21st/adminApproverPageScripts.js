@@ -414,10 +414,6 @@
 
                     var getFirstChildrenLength = getProposedDataParent.children.length
 
-                    var getProposedDataSet = getProposedDataParent.children[0]
-
-                        var getProposedDataSetItemsLength = getProposedDataSet.children.length
-
 
 
 
@@ -426,6 +422,10 @@
                             // ====================================================== //
 
                                 for ( initialPackerCounter = 0; initialPackerCounter < getFirstChildrenLength; initialPackerCounter++ ) {
+
+                                        var getProposedDataSet = getProposedDataParent.children[0]
+
+                                            var getProposedDataSetItemsLength = getProposedDataSet.children.length
 
                                     // PUSH SUB ARRAY FOR EACH COLLECTED ENTRY ====== //
                                     // ============================================== //
@@ -445,6 +445,11 @@
                                                         proposedChangesArray[initialPackerCounter].push(getProposedDataSet.children[proposedDataCounter].textContent)
 
                                                 }
+                                                console.log("count: " + initialPackerCounter)
+
+                                                console.log("BITS: " + proposedChangesArray[initialPackerCounter])
+
+
 
 
                                     // REMOVE RETRIEVED ELEMENT FROM DOM ============ //
@@ -1004,9 +1009,6 @@
 
                         
                     });
-
-
-                    console.log("BITS: " + proposedChangesArray[0])
 
 
 

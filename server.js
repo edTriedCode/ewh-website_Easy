@@ -102,7 +102,7 @@
                             // ===============================================
 
                                 introCurrentSubHeadlineMainEng:String,
-                                introCurrentSubHeadlineMainArab:String,
+                                introCurrentSubHeadlineMainArb:String,
 
                             // ACTION BUTTON =================================
                             // ===============================================
@@ -422,7 +422,7 @@
                                 // ============================================
 
                                     introCurrentSubHeadlineMainEng:req.body.mainScreenEnglishSubHeadline,
-                                    introCurrentSubHeadlineMainArab:req.body.mainScreenArabicSubHeadline,
+                                    introCurrentSubHeadlineMainArb:req.body.mainScreenArabicSubHeadline,
 
                                 // ACTION BUTTON ==============================
                                 // ============================================
@@ -445,7 +445,7 @@
                                 // SUBMITTER NAME =============================
                                 // ============================================
 
-                                    introCurrentSubmitterNameMain:"marketing"
+                                    introCurrentSubmitterNameMain:"this person"
 
 
                             })
